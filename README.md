@@ -1,4 +1,4 @@
-# Graph-Based Audio Steganography in RGB Images
+#  Audio Steganography in  Images
 
 A reproducible Python implementation of audio-file embedding in RGB cover images using parity along a serpentine grid-graph traversal. The embedded payload is the **original audio file bytes** (not encrypted or converted to waveform samples). At extraction, exact MP3 file bytes are recovered and verified by SHA-256.
 
